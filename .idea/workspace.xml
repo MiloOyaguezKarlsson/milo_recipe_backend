@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+      <artifact name="milo_recipe_backend" />
       <artifact name="milo_recipe_backend:war exploded" />
     </artifacts-to-build>
   </component>
@@ -31,8 +32,8 @@
       <file leaf-file-name="RecipeBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/milo/te4/beans/RecipeBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1207">
-              <caret line="449" column="0" lean-forward="false" selection-start-line="449" selection-start-column="0" selection-end-line="449" selection-end-column="0" />
+            <state relative-caret-position="297">
+              <caret line="271" column="55" lean-forward="false" selection-start-line="271" selection-start-column="55" selection-end-line="271" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#getRecipe#0;class#RecipeBean#0" expanded="false" />
@@ -54,31 +55,31 @@
                 <element signature="method#postRecipeTags#0;class#RecipeBean#0" expanded="false" />
                 <element signature="method#putRecipeIngredients#0;class#RecipeBean#0" expanded="false" />
                 <element signature="method#putRecipeTags#0;class#RecipeBean#0" expanded="false" />
-                <marker date="1516712280191" expanded="true" signature="488:690" ph="SELECT id, n... " />
-                <marker date="1516712280191" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
-                <marker date="1516712280191" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
-                <marker date="1516712280191" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
-                <marker date="1516712280191" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
-                <marker date="1516712280191" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
-                <marker date="1516712280191" expanded="true" signature="9507:9538" ph="DELETE FROM " />
-                <marker date="1516712280191" expanded="true" signature="10060:10092" ph="DELETE FROM " />
-                <marker date="1516712280191" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
-                <marker date="1516712280191" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
-                <marker date="1516712280191" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
-                <marker date="1516712280191" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
-                <marker date="1516712280191" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
-                <marker date="1516712280191" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
-                <marker date="1516712280191" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
-                <marker date="1516712280191" expanded="true" signature="14836:14873" ph="SELECT name tags" />
-                <marker date="1516712280191" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
-                <marker date="1516712280191" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
-                <marker date="1516712280191" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
-                <marker date="1516712280191" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
-                <marker date="1516712280191" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
-                <marker date="1516712280191" expanded="true" signature="17563:17602" ph="DELETE FROM " />
-                <marker date="1516712280191" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
-                <marker date="1516712280191" expanded="true" signature="18611:18643" ph="DELETE FROM " />
-                <marker date="1516712280191" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
+                <marker date="1517308279672" expanded="true" signature="488:690" ph="SELECT id, n... " />
+                <marker date="1517308279672" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
+                <marker date="1517308279672" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
+                <marker date="1517308279672" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
+                <marker date="1517308279672" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
+                <marker date="1517308279672" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
+                <marker date="1517308279672" expanded="true" signature="9507:9538" ph="DELETE FROM " />
+                <marker date="1517308279672" expanded="true" signature="10060:10092" ph="DELETE FROM " />
+                <marker date="1517308279672" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
+                <marker date="1517308279672" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
+                <marker date="1517308279672" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
+                <marker date="1517308279672" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
+                <marker date="1517308279672" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
+                <marker date="1517308279672" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
+                <marker date="1517308279672" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
+                <marker date="1517308279672" expanded="true" signature="14836:14873" ph="SELECT name tags" />
+                <marker date="1517308279672" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
+                <marker date="1517308279672" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
+                <marker date="1517308279672" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
+                <marker date="1517308279672" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
+                <marker date="1517308279672" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
+                <marker date="1517308279672" expanded="true" signature="17563:17602" ph="DELETE FROM " />
+                <marker date="1517308279672" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
+                <marker date="1517308279672" expanded="true" signature="18611:18643" ph="DELETE FROM " />
+                <marker date="1517308279672" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
               </folding>
             </state>
           </provider>
@@ -87,28 +88,38 @@
       <file leaf-file-name="LoginBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/milo/te4/beans/LoginBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="242">
+              <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
               <folding>
-                <element signature="method#createUser#0;class#LoginBean#0" expanded="false" />
+                <element signature="imports" expanded="true" />
                 <element signature="method#checkCredentials#0;class#LoginBean#0" expanded="false" />
-                <marker date="1516712280140" expanded="true" signature="1061:1087" ph="SELECT usern... users" />
-                <marker date="1516712280140" expanded="true" signature="1833:1874" ph="INSERT INTO user... " />
-                <marker date="1516712280140" expanded="true" signature="2856:2893" ph="SELECT * FRO... users" />
-                <marker date="1516712280140" expanded="true" signature="2856:2898" ph="SELECT * FRO... users" />
-                <marker date="1516712280140" expanded="true" signature="2856:2899" ph="SELECT * FRO... users" />
-                <marker date="1516712280140" expanded="true" signature="2856:2914" ph="SELECT * FRO... users" />
-                <marker date="1516712280140" expanded="true" signature="2856:2916" ph="SELECT * FRO... users" />
+                <marker date="1517308055181" expanded="true" signature="1061:1087" ph="SELECT usern... users" />
+                <marker date="1517308055181" expanded="true" signature="1833:1874" ph="INSERT INTO user... " />
+                <marker date="1517308055181" expanded="true" signature="2856:2893" ph="SELECT * FRO... users" />
+                <marker date="1517308055181" expanded="true" signature="2856:2898" ph="SELECT * FRO... users" />
+                <marker date="1517308055181" expanded="true" signature="2856:2899" ph="SELECT * FRO... users" />
+                <marker date="1517308055181" expanded="true" signature="2856:2914" ph="SELECT * FRO... users" />
+                <marker date="1517308055181" expanded="true" signature="2856:2916" ph="SELECT * FRO... users" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecipeService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RecipeService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/milo/te4/services/RecipeService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="-1443">
               <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/milo/te4/utilities/ConnectionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -134,14 +145,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/config/ApplicationConfig.java" />
         <option value="$PROJECT_DIR$/src/milo/te4/utilities/BCrypt.java" />
-        <option value="$PROJECT_DIR$/src/milo/te4/utilities/ConnectionFactory.java" />
         <option value="$PROJECT_DIR$/src/milo/te4/utilities/Sort.java" />
         <option value="$PROJECT_DIR$/src/milo/te4/beans/CORSFilter.java" />
         <option value="$PROJECT_DIR$/src/milo/te4/utilities/CORSFilter.java" />
         <option value="$PROJECT_DIR$/src/milo/te4/config/ApplicationConfig.java" />
+        <option value="$PROJECT_DIR$/src/milo/te4/services/RecipeService.java" />
         <option value="$PROJECT_DIR$/src/milo/te4/beans/LoginBean.java" />
         <option value="$PROJECT_DIR$/src/milo/te4/beans/RecipeBean.java" />
-        <option value="$PROJECT_DIR$/src/milo/te4/services/RecipeService.java" />
+        <option value="$PROJECT_DIR$/src/milo/te4/utilities/ConnectionFactory.java" />
       </list>
     </option>
   </component>
@@ -245,10 +256,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="milo_recipe_backend" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -270,7 +285,11 @@
   <component name="RunManager" selected="GlassFish Server.GlassFish 4.1.1">
     <configuration name="GlassFish 4.1.1" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.1.1" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/milo_recipe_backend_war_exploded" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
       <deployment>
+        <artifact name="milo_recipe_backend">
+          <settings />
+        </artifact>
         <artifact name="milo_recipe_backend:war exploded">
           <settings />
         </artifact>
@@ -288,6 +307,36 @@
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="9009" />
       </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -306,8 +355,29 @@
       <method>
         <option name="BuildArtifacts" enabled="true">
           <artifact name="milo_recipe_backend:war exploded" />
+          <artifact name="milo_recipe_backend" />
         </option>
       </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -422,16 +492,15 @@
       <workItem from="1515746239274" duration="24594000" />
       <workItem from="1516197271440" duration="17128000" />
       <workItem from="1516629861857" duration="5732000" />
-      <workItem from="1517214505872" duration="2210000" />
+      <workItem from="1517214505872" duration="12585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78946000" />
+    <option name="totallyTimeSpent" value="89321000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
@@ -475,7 +544,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -505,31 +574,31 @@
             <element signature="method#postRecipeTags#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeIngredients#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeTags#0;class#RecipeBean#0" expanded="false" />
-            <marker date="1516712280191" expanded="true" signature="488:690" ph="SELECT id, n... " />
-            <marker date="1516712280191" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
-            <marker date="1516712280191" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
-            <marker date="1516712280191" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="9507:9538" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10060:10092" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
-            <marker date="1516712280191" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
-            <marker date="1516712280191" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
-            <marker date="1516712280191" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
-            <marker date="1516712280191" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
-            <marker date="1516712280191" expanded="true" signature="14836:14873" ph="SELECT name tags" />
-            <marker date="1516712280191" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
-            <marker date="1516712280191" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17563:17602" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="18611:18643" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="488:690" ph="SELECT id, n... " />
+            <marker date="1517308279672" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
+            <marker date="1517308279672" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
+            <marker date="1517308279672" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="9507:9538" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10060:10092" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
+            <marker date="1517308279672" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
+            <marker date="1517308279672" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
+            <marker date="1517308279672" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
+            <marker date="1517308279672" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
+            <marker date="1517308279672" expanded="true" signature="14836:14873" ph="SELECT name tags" />
+            <marker date="1517308279672" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
+            <marker date="1517308279672" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17563:17602" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="18611:18643" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
           </folding>
         </state>
       </provider>
@@ -539,15 +608,15 @@
         <state relative-caret-position="85">
           <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding>
-            <element signature="method#createUser#0;class#LoginBean#0" expanded="false" />
+            <element signature="imports" expanded="true" />
             <element signature="method#checkCredentials#0;class#LoginBean#0" expanded="false" />
-            <marker date="1516712280140" expanded="true" signature="1061:1087" ph="SELECT usern... users" />
-            <marker date="1516712280140" expanded="true" signature="1833:1874" ph="INSERT INTO user... " />
-            <marker date="1516712280140" expanded="true" signature="2856:2893" ph="SELECT * FRO... users" />
-            <marker date="1516712280140" expanded="true" signature="2856:2898" ph="SELECT * FRO... users" />
-            <marker date="1516712280140" expanded="true" signature="2856:2899" ph="SELECT * FRO... users" />
-            <marker date="1516712280140" expanded="true" signature="2856:2914" ph="SELECT * FRO... users" />
-            <marker date="1516712280140" expanded="true" signature="2856:2916" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="1061:1087" ph="SELECT usern... users" />
+            <marker date="1517308055181" expanded="true" signature="1833:1874" ph="INSERT INTO user... " />
+            <marker date="1517308055181" expanded="true" signature="2856:2893" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="2856:2898" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="2856:2899" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="2856:2914" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="2856:2916" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -585,31 +654,31 @@
             <element signature="method#postRecipeTags#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeIngredients#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeTags#0;class#RecipeBean#0" expanded="false" />
-            <marker date="1516712280191" expanded="true" signature="488:690" ph="SELECT id, n... " />
-            <marker date="1516712280191" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
-            <marker date="1516712280191" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
-            <marker date="1516712280191" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="9507:9538" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10060:10092" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
-            <marker date="1516712280191" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
-            <marker date="1516712280191" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
-            <marker date="1516712280191" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
-            <marker date="1516712280191" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
-            <marker date="1516712280191" expanded="true" signature="14836:14873" ph="SELECT name tags" />
-            <marker date="1516712280191" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
-            <marker date="1516712280191" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17563:17602" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="18611:18643" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="488:690" ph="SELECT id, n... " />
+            <marker date="1517308279672" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
+            <marker date="1517308279672" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
+            <marker date="1517308279672" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="9507:9538" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10060:10092" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
+            <marker date="1517308279672" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
+            <marker date="1517308279672" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
+            <marker date="1517308279672" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
+            <marker date="1517308279672" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
+            <marker date="1517308279672" expanded="true" signature="14836:14873" ph="SELECT name tags" />
+            <marker date="1517308279672" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
+            <marker date="1517308279672" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17563:17602" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="18611:18643" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
           </folding>
         </state>
       </provider>
@@ -619,15 +688,15 @@
         <state relative-caret-position="1071">
           <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding>
-            <element signature="method#createUser#0;class#LoginBean#0" expanded="false" />
+            <element signature="imports" expanded="true" />
             <element signature="method#checkCredentials#0;class#LoginBean#0" expanded="false" />
-            <marker date="1516712280140" expanded="true" signature="1061:1087" ph="SELECT usern... users" />
-            <marker date="1516712280140" expanded="true" signature="1833:1874" ph="INSERT INTO user... " />
-            <marker date="1516712280140" expanded="true" signature="2856:2893" ph="SELECT * FRO... users" />
-            <marker date="1516712280140" expanded="true" signature="2856:2898" ph="SELECT * FRO... users" />
-            <marker date="1516712280140" expanded="true" signature="2856:2899" ph="SELECT * FRO... users" />
-            <marker date="1516712280140" expanded="true" signature="2856:2914" ph="SELECT * FRO... users" />
-            <marker date="1516712280140" expanded="true" signature="2856:2916" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="1061:1087" ph="SELECT usern... users" />
+            <marker date="1517308055181" expanded="true" signature="1833:1874" ph="INSERT INTO user... " />
+            <marker date="1517308055181" expanded="true" signature="2856:2893" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="2856:2898" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="2856:2899" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="2856:2914" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="2856:2916" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -689,31 +758,31 @@
             <element signature="method#postRecipeTags#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeIngredients#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeTags#0;class#RecipeBean#0" expanded="false" />
-            <marker date="1516712280191" expanded="true" signature="488:690" ph="SELECT id, n... " />
-            <marker date="1516712280191" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
-            <marker date="1516712280191" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
-            <marker date="1516712280191" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="9507:9538" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10060:10092" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
-            <marker date="1516712280191" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
-            <marker date="1516712280191" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
-            <marker date="1516712280191" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
-            <marker date="1516712280191" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
-            <marker date="1516712280191" expanded="true" signature="14836:14873" ph="SELECT name tags" />
-            <marker date="1516712280191" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
-            <marker date="1516712280191" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17563:17602" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="18611:18643" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="488:690" ph="SELECT id, n... " />
+            <marker date="1517308279672" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
+            <marker date="1517308279672" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
+            <marker date="1517308279672" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="9507:9538" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10060:10092" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
+            <marker date="1517308279672" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
+            <marker date="1517308279672" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
+            <marker date="1517308279672" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
+            <marker date="1517308279672" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
+            <marker date="1517308279672" expanded="true" signature="14836:14873" ph="SELECT name tags" />
+            <marker date="1517308279672" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
+            <marker date="1517308279672" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17563:17602" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="18611:18643" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
           </folding>
         </state>
       </provider>
@@ -739,15 +808,15 @@
         <state relative-caret-position="85">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
-            <element signature="method#createUser#0;class#LoginBean#0" expanded="false" />
+            <element signature="imports" expanded="true" />
             <element signature="method#checkCredentials#0;class#LoginBean#0" expanded="false" />
-            <marker date="1516712280140" expanded="true" signature="1061:1087" ph="SELECT usern... users" />
-            <marker date="1516712280140" expanded="true" signature="1833:1874" ph="INSERT INTO user... " />
-            <marker date="1516712280140" expanded="true" signature="2856:2893" ph="SELECT * FRO... users" />
-            <marker date="1516712280140" expanded="true" signature="2856:2898" ph="SELECT * FRO... users" />
-            <marker date="1516712280140" expanded="true" signature="2856:2899" ph="SELECT * FRO... users" />
-            <marker date="1516712280140" expanded="true" signature="2856:2914" ph="SELECT * FRO... users" />
-            <marker date="1516712280140" expanded="true" signature="2856:2916" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="1061:1087" ph="SELECT usern... users" />
+            <marker date="1517308055181" expanded="true" signature="1833:1874" ph="INSERT INTO user... " />
+            <marker date="1517308055181" expanded="true" signature="2856:2893" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="2856:2898" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="2856:2899" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="2856:2914" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="2856:2916" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>
@@ -793,31 +862,31 @@
             <element signature="method#postRecipeTags#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeIngredients#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeTags#0;class#RecipeBean#0" expanded="false" />
-            <marker date="1516712280191" expanded="true" signature="488:690" ph="SELECT id, n... " />
-            <marker date="1516712280191" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
-            <marker date="1516712280191" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
-            <marker date="1516712280191" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="9507:9538" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10060:10092" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
-            <marker date="1516712280191" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
-            <marker date="1516712280191" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
-            <marker date="1516712280191" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
-            <marker date="1516712280191" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
-            <marker date="1516712280191" expanded="true" signature="14836:14873" ph="SELECT name tags" />
-            <marker date="1516712280191" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
-            <marker date="1516712280191" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17563:17602" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="18611:18643" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="488:690" ph="SELECT id, n... " />
+            <marker date="1517308279672" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
+            <marker date="1517308279672" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
+            <marker date="1517308279672" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="9507:9538" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10060:10092" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
+            <marker date="1517308279672" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
+            <marker date="1517308279672" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
+            <marker date="1517308279672" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
+            <marker date="1517308279672" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
+            <marker date="1517308279672" expanded="true" signature="14836:14873" ph="SELECT name tags" />
+            <marker date="1517308279672" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
+            <marker date="1517308279672" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17563:17602" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="18611:18643" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
           </folding>
         </state>
       </provider>
@@ -871,31 +940,31 @@
             <element signature="method#postRecipeTags#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeIngredients#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeTags#0;class#RecipeBean#0" expanded="false" />
-            <marker date="1516712280191" expanded="true" signature="488:690" ph="SELECT id, n... " />
-            <marker date="1516712280191" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
-            <marker date="1516712280191" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
-            <marker date="1516712280191" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="9507:9538" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10060:10092" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
-            <marker date="1516712280191" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
-            <marker date="1516712280191" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
-            <marker date="1516712280191" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
-            <marker date="1516712280191" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
-            <marker date="1516712280191" expanded="true" signature="14836:14873" ph="SELECT name tags" />
-            <marker date="1516712280191" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
-            <marker date="1516712280191" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17563:17602" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="18611:18643" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="488:690" ph="SELECT id, n... " />
+            <marker date="1517308279672" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
+            <marker date="1517308279672" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
+            <marker date="1517308279672" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="9507:9538" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10060:10092" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
+            <marker date="1517308279672" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
+            <marker date="1517308279672" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
+            <marker date="1517308279672" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
+            <marker date="1517308279672" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
+            <marker date="1517308279672" expanded="true" signature="14836:14873" ph="SELECT name tags" />
+            <marker date="1517308279672" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
+            <marker date="1517308279672" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17563:17602" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="18611:18643" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
           </folding>
         </state>
       </provider>
@@ -949,31 +1018,31 @@
             <element signature="method#postRecipeTags#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeIngredients#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeTags#0;class#RecipeBean#0" expanded="false" />
-            <marker date="1516712280191" expanded="true" signature="488:690" ph="SELECT id, n... " />
-            <marker date="1516712280191" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
-            <marker date="1516712280191" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
-            <marker date="1516712280191" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="9507:9538" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10060:10092" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
-            <marker date="1516712280191" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
-            <marker date="1516712280191" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
-            <marker date="1516712280191" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
-            <marker date="1516712280191" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
-            <marker date="1516712280191" expanded="true" signature="14836:14873" ph="SELECT name tags" />
-            <marker date="1516712280191" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
-            <marker date="1516712280191" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17563:17602" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="18611:18643" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="488:690" ph="SELECT id, n... " />
+            <marker date="1517308279672" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
+            <marker date="1517308279672" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
+            <marker date="1517308279672" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="9507:9538" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10060:10092" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
+            <marker date="1517308279672" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
+            <marker date="1517308279672" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
+            <marker date="1517308279672" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
+            <marker date="1517308279672" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
+            <marker date="1517308279672" expanded="true" signature="14836:14873" ph="SELECT name tags" />
+            <marker date="1517308279672" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
+            <marker date="1517308279672" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17563:17602" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="18611:18643" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
           </folding>
         </state>
       </provider>
@@ -1019,31 +1088,31 @@
             <element signature="method#postRecipeTags#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeIngredients#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeTags#0;class#RecipeBean#0" expanded="false" />
-            <marker date="1516712280191" expanded="true" signature="488:690" ph="SELECT id, n... " />
-            <marker date="1516712280191" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
-            <marker date="1516712280191" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
-            <marker date="1516712280191" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="9507:9538" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10060:10092" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
-            <marker date="1516712280191" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
-            <marker date="1516712280191" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
-            <marker date="1516712280191" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
-            <marker date="1516712280191" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
-            <marker date="1516712280191" expanded="true" signature="14836:14873" ph="SELECT name tags" />
-            <marker date="1516712280191" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
-            <marker date="1516712280191" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17563:17602" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="18611:18643" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="488:690" ph="SELECT id, n... " />
+            <marker date="1517308279672" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
+            <marker date="1517308279672" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
+            <marker date="1517308279672" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="9507:9538" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10060:10092" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
+            <marker date="1517308279672" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
+            <marker date="1517308279672" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
+            <marker date="1517308279672" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
+            <marker date="1517308279672" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
+            <marker date="1517308279672" expanded="true" signature="14836:14873" ph="SELECT name tags" />
+            <marker date="1517308279672" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
+            <marker date="1517308279672" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17563:17602" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="18611:18643" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
           </folding>
         </state>
       </provider>
@@ -1097,31 +1166,31 @@
             <element signature="method#postRecipeTags#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeIngredients#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeTags#0;class#RecipeBean#0" expanded="false" />
-            <marker date="1516712280191" expanded="true" signature="488:690" ph="SELECT id, n... " />
-            <marker date="1516712280191" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
-            <marker date="1516712280191" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
-            <marker date="1516712280191" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="9507:9538" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10060:10092" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
-            <marker date="1516712280191" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
-            <marker date="1516712280191" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
-            <marker date="1516712280191" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
-            <marker date="1516712280191" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
-            <marker date="1516712280191" expanded="true" signature="14836:14873" ph="SELECT name tags" />
-            <marker date="1516712280191" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
-            <marker date="1516712280191" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17563:17602" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="18611:18643" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="488:690" ph="SELECT id, n... " />
+            <marker date="1517308279672" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
+            <marker date="1517308279672" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
+            <marker date="1517308279672" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="9507:9538" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10060:10092" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
+            <marker date="1517308279672" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
+            <marker date="1517308279672" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
+            <marker date="1517308279672" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
+            <marker date="1517308279672" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
+            <marker date="1517308279672" expanded="true" signature="14836:14873" ph="SELECT name tags" />
+            <marker date="1517308279672" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
+            <marker date="1517308279672" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17563:17602" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="18611:18643" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
           </folding>
         </state>
       </provider>
@@ -1194,10 +1263,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/milo/te4/config/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/milo_recipe_backend/milo/te4/beans/RecipeBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#16631#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/milo/te4/beans/LoginBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#checkCredentials#0;class#LoginBean#0" expanded="false" />
+            <marker date="1517308055181" expanded="true" signature="1061:1087" ph="SELECT usern... users" />
+            <marker date="1517308055181" expanded="true" signature="1833:1874" ph="INSERT INTO user... " />
+            <marker date="1517308055181" expanded="true" signature="2856:2893" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="2856:2898" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="2856:2899" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="2856:2914" ph="SELECT * FRO... users" />
+            <marker date="1517308055181" expanded="true" signature="2856:2916" ph="SELECT * FRO... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/milo/te4/services/RecipeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1443">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/milo/te4/beans/RecipeBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="449" column="0" lean-forward="false" selection-start-line="449" selection-start-column="0" selection-end-line="449" selection-end-column="0" />
+        <state relative-caret-position="297">
+          <caret line="271" column="55" lean-forward="false" selection-start-line="271" selection-start-column="55" selection-end-line="271" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#getRecipe#0;class#RecipeBean#0" expanded="false" />
@@ -1219,73 +1332,39 @@
             <element signature="method#postRecipeTags#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeIngredients#0;class#RecipeBean#0" expanded="false" />
             <element signature="method#putRecipeTags#0;class#RecipeBean#0" expanded="false" />
-            <marker date="1516712280191" expanded="true" signature="488:690" ph="SELECT id, n... " />
-            <marker date="1516712280191" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
-            <marker date="1516712280191" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
-            <marker date="1516712280191" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
-            <marker date="1516712280191" expanded="true" signature="9507:9538" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10060:10092" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
-            <marker date="1516712280191" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
-            <marker date="1516712280191" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
-            <marker date="1516712280191" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
-            <marker date="1516712280191" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
-            <marker date="1516712280191" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
-            <marker date="1516712280191" expanded="true" signature="14836:14873" ph="SELECT name tags" />
-            <marker date="1516712280191" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
-            <marker date="1516712280191" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
-            <marker date="1516712280191" expanded="true" signature="17563:17602" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
-            <marker date="1516712280191" expanded="true" signature="18611:18643" ph="DELETE FROM " />
-            <marker date="1516712280191" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="488:690" ph="SELECT id, n... " />
+            <marker date="1517308279672" expanded="true" signature="5349:5433" ph="INSERT INTO recipes... " />
+            <marker date="1517308279672" expanded="true" signature="6564:6629" ph="INSERT INTO comments... " />
+            <marker date="1517308279672" expanded="true" signature="7843:8009" ph="UPDATE recip... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8963" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="8934:8982" ph="UPDATE comme... " />
+            <marker date="1517308279672" expanded="true" signature="9507:9538" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10060:10092" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="10630:10667" ph="SELECT * FRO... upvotes" />
+            <marker date="1517308279672" expanded="true" signature="11152:11188" ph="INSERT INTO upvotes... " />
+            <marker date="1517308279672" expanded="true" signature="12520:12546" ph="SELECT name groceries" />
+            <marker date="1517308279672" expanded="true" signature="12884:12919" ph="INSERT INTO groceries... " />
+            <marker date="1517308279672" expanded="true" signature="13192:13242" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="13192:13354" ph="SELECT name,... ingredients" />
+            <marker date="1517308279672" expanded="true" signature="14055:14115" ph="SELECT id, u... " />
+            <marker date="1517308279672" expanded="true" signature="14836:14873" ph="SELECT name tags" />
+            <marker date="1517308279672" expanded="true" signature="15513:15560" ph="SELECT id FR... recipes" />
+            <marker date="1517308279672" expanded="true" signature="16409:16465" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17056" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17064" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17032:17071" ph="INSERT INTO tags... " />
+            <marker date="1517308279672" expanded="true" signature="17563:17602" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18049:18105" ph="INSERT INTO ingredients... " />
+            <marker date="1517308279672" expanded="true" signature="18611:18643" ph="DELETE FROM " />
+            <marker date="1517308279672" expanded="true" signature="18839:18878" ph="INSERT INTO tags... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/milo/te4/config/ApplicationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="59" lean-forward="false" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/milo/te4/utilities/ConnectionFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/milo/te4/beans/LoginBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="method#createUser#0;class#LoginBean#0" expanded="false" />
-            <element signature="method#checkCredentials#0;class#LoginBean#0" expanded="false" />
-            <marker date="1516712280140" expanded="true" signature="1061:1087" ph="SELECT usern... users" />
-            <marker date="1516712280140" expanded="true" signature="1833:1874" ph="INSERT INTO user... " />
-            <marker date="1516712280140" expanded="true" signature="2856:2893" ph="SELECT * FRO... users" />
-            <marker date="1516712280140" expanded="true" signature="2856:2898" ph="SELECT * FRO... users" />
-            <marker date="1516712280140" expanded="true" signature="2856:2899" ph="SELECT * FRO... users" />
-            <marker date="1516712280140" expanded="true" signature="2856:2914" ph="SELECT * FRO... users" />
-            <marker date="1516712280140" expanded="true" signature="2856:2916" ph="SELECT * FRO... users" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/milo/te4/services/RecipeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state relative-caret-position="136">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1296,7 +1375,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>milo_recipe_backend:war exploded</last-edited>
+          <last-edited>milo_recipe_backend</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

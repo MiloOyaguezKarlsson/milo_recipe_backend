@@ -41,7 +41,7 @@ public class LoginBean {
 
             //kolla om användarnamnet inte är unikt
             if(usernames.contains(username))
-                return 400;
+                return 409;
             //kolla om lösenordet är starkt nog (minst 8 tecken, en stor och en liten bokstav, en siffra och ett specialtecken)
             if(!Pattern.matches("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[$@$!%*?&])[A-Za-z\\d$@$!%*?&]{8,}", password))
                 return 400;
@@ -52,7 +52,7 @@ public class LoginBean {
             stmt.executeUpdate(sql);
             connection.close();
 
-            return 200;
+            return 201;
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {

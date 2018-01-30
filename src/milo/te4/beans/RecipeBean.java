@@ -291,7 +291,7 @@ public class RecipeBean {
                 return 0;
             }
             connection.close();
-            return 200;
+            return 201;
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {

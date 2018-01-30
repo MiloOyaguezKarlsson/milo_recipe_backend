@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="milo_recipe_backend:war exploded">
+  <artifact type="exploded-ear" name="milo_recipe_backend:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/milo_recipe_backend_war_exploded</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="milo_recipe_backend/web/Web" />
